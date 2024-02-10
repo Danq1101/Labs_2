@@ -1,8 +1,12 @@
-<%@ page contentType="text/html;charset=utf-8" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>Input word</title>
+</head>
 <body>
-<h2>Сервлет</h2>
-<form action="test/*">
-    <input type="submit" value="Выполнить"> </form>
+<form>
+    <input type="text" value="Input word" name="wordAttribute"/>
+    <input type="submit" formmethod="post" value="Search"/>
+</form>
 </body>
 </html>

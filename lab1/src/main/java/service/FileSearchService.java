@@ -1,6 +1,7 @@
 package service;
 
+import java.io.IOException;
+
 public interface FileSearchService {
-    void findWord();
-    void getWord();
+    int findWord(String word) throws IOException;
 }
