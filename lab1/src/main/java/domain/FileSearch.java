@@ -1,4 +1,7 @@
 package domain;
 
-public interface FileSearch {
+public class FileSearch {
+
+    private String word;
+
 }
