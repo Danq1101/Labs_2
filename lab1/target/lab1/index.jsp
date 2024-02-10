@@ -1,20 +1,8 @@
 <%@ page contentType="text/html;charset=utf-8" %>
-<!DOCTYPE html>
 <html>
-    <body>
-
-        <form action="Login" method="post">
-            <table>
-                <tr>
-                    <td>Name:</td>
-                    <td><input type="text" name="userName"></td>
-                </tr>
-                <tr>
-                    <td>Password:</td>
-                    <td><input type="password" name="userPassword"></td>
-                </tr>
-            </table>
-            <input type="submit" value="Login">
-        </form>
-    </body>
+<body>
+<h2>Сервлет</h2>
+<form action="test/*">
+    <input type="submit" value="Выполнить"> </form>
+</body>
 </html>
