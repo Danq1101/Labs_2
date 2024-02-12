@@ -9,14 +9,14 @@ import service.impl.FileSearchServiceImpl;
 
 import java.io.IOException;
 
-@WebServlet(name = "fileSearch", urlPatterns = "/test")
+@WebServlet(name = "FileSearch", urlPatterns = "http://localhost:8080/lab1_war_exploded/fileSearch")
 public class FileSearchServlet extends HttpServlet {
 
     FileSearchServiceImpl fileSearch = new FileSearchServiceImpl();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("index.jsp").forward(req, resp);
+        req.getRequestDispatcher("WordSearch.jsp").forward(req, resp);
     }
 
     @Override

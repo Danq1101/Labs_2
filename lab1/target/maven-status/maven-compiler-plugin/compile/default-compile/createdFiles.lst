@@ -1,12 +1,10 @@
-domain\CollectionSearch.class
-service\impl\CollectionSearchServiceImpl.class
-servlets\Main.class
-service\impl\OutputServiceImpl.class
 service\CollectionSearchService.class
 service\OutputService.class
 service\FileSearchService.class
 servlets\CollectionSearchServlet.class
 servlets\FileSearchServlet.class
-domain\FileSearch.class
+service\impl\CollectionSearchServiceImpl.class
+servlets\Main.class
+service\impl\OutputServiceImpl.class
 service\impl\FileSearchServiceImpl.class
 servlets\OutputServlet.class
