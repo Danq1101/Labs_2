@@ -1,7 +1,9 @@
-package service;
+package com.example.service;
 
 import java.io.IOException;
 
-public interface FileSearchService {
+public interface FileSearch {
+
     int findWord(String word) throws IOException;
+
 }
