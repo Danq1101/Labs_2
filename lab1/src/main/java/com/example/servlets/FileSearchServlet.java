@@ -9,22 +9,28 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "fileSearch", urlPatterns = "/index")
+@WebServlet(name = "fileSearch", urlPatterns = "/fileSearch/*")
 public class FileSearchServlet extends HttpServlet {
 
     FileSearchImpl fileSearch = new FileSearchImpl();
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse res)
             throws ServletException, IOException {
-        request.getRequestDispatcher("index.jsp").forward(request, response);
+        req.getRequestDispatcher("fileSearch.jsp").forward(req, res);
     }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
         throws ServletException, IOException{
-        int increment = fileSearch.findWord(request.getParameter("wordAttribute"));
-        String res = "'Word " + request.getParameter("wordAttribute") + "' increment is " + increment;
-        request.setAttribute("res", res);
-        request.getRequestDispatcher("index.jsp").forward(request, response);
+        int increment = fileSearch.findWord(req.getParameter("wordAttribute"));
+        String res;
+        if (increment != 0)
+            res = "'Word " + req.getParameter("wordAttribute") + "' increment is " + increment;
+        else
+            res = "Your word have no matches";
+        req.setAttribute("res", res);
+        req.getRequestDispatcher("fileSearch.jsp").forward(req, resp);
     }
 
 }

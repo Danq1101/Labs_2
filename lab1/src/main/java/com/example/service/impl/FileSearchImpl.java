@@ -21,8 +21,6 @@ public class FileSearchImpl implements FileSearch {
                 System.out.println(target);
                 if (target.equals(checkWord))
                     increment++;
-                if (increment == 0)
-                    System.out.println("Your word have no matches");
             }
         }
         return increment;

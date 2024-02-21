@@ -1,10 +1,10 @@
 package com.example.service.impl;
 
-import com.example.service.WordSearch;
+import com.example.service.CollectionSearch;
 
 import java.util.HashMap;
 
-public class WordSearchImpl implements WordSearch {
+public class CollectionSearchImpl implements CollectionSearch {
 
     private HashMap<Integer, String> map = new HashMap<>();
     {
@@ -16,20 +16,20 @@ public class WordSearchImpl implements WordSearch {
 
 
     @Override
-    public String findInfoKey(Integer key) {
+    public String findInfoByKey(Integer key) {
         return map.get(key);
     }
 
-    public String findInfoValue(String value){
-
-
-
-        if (map.containsValue(value))
-            System.out.println(map);
-
-
-        return value;
-    }
+//    public String findInfoValue(String value){
+//
+//
+//
+//        if (map.containsValue(value))
+//            System.out.println(map);
+//
+//
+//        return value;
+//    }
 
     @Override
     public void changeInfo(Integer key, String value) {

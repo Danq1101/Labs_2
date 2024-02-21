@@ -1,10 +1,10 @@
 /home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/ChangeStyle.java
 /home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/servlets/MainServlet.java
-/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/servlets/WordSearchServlet.java
-/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/impl/WordSearchImpl.java
-/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/WordSearch.java
+/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/impl/CollectionSearchImpl.java
+/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/servlets/CollectionSearch.java
 /home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/impl/ChangeStyleImpl.java
 /home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/impl/FileSearchImpl.java
-/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/servlets/ChangeStyleServelt.java
+/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/CollectionSearch.java
+/home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/servlets/ChangeStyleServlet.java
 /home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/servlets/FileSearchServlet.java
 /home/daniil/IdeaProjects/Labs_2/lab1/src/main/java/com/example/service/FileSearch.java

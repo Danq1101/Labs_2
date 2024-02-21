@@ -1,14 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Input word</title>
 </head>
 <body>
-<form>
-    <input type="text" placeholder="Input word" name="wordAttribute"/>
-    <input type="submit" formmethod="post" value="Search"/>
-</form>
-<h2>Res</h2>
-<h2>${requestScope.res}</h2>
+    <h2>Lab1</h2>
+    <a href="fileSearch">File search</a><br>
+    <a href="collectionSearch">Collection search</a><br>
+    <a href="changeStyle">Change words style</a>
 </body>
 </html>
