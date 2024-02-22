@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "fileSearch", urlPatterns = "/fileSearch/*")
+@WebServlet(name = "fileSearch", urlPatterns = "/fileSearch")
 public class FileSearchServlet extends HttpServlet {
 
     FileSearchImpl fileSearch = new FileSearchImpl();
