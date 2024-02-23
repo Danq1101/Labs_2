@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "changeStyle", urlPatterns = "/changeStyle/*")
+@WebServlet(name = "changeStyle", urlPatterns = "/changeStyle")
 public class ChangeStyleServlet extends HttpServlet {
 
     private final ChangeStyleImpl changeStyleService = new ChangeStyleImpl();

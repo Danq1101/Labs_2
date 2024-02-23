@@ -43,8 +43,8 @@ public class CollectionSearch extends HttpServlet {
             else {
                 String newValueInfo = req.getParameter("changeText");
                 if (newValueInfo.isEmpty()) {
-                    req.setAttribute("res", "Error: empty 'input change info' field");
-                    req.getRequestDispatcher("showResult.jsp").forward(req, resp);
+                    req.setAttribute("res", "Error: empty 'change' field");
+                    req.getRequestDispatcher("collectionSearch.jsp").forward(req, resp);
                 }
                 else {
                     String prevInfoVal = collectionSearch.findInfoByKey(Integer.valueOf(findInfo));
