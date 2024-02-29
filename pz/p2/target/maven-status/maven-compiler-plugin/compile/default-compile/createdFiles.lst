@@ -1,0 +1,7 @@
+ict/example/annotation/processor/FieldNameProcessor.class
+ict/example/annotation/ClassCreator.class
+ict/example/annotation/Main.class
+ict/example/annotation/domain/FieldDto.class
+ict/example/annotation/FieldNames.class
+ict/example/annotation/domain/ClassDto.class
+META-INF/services/javax.annotation.processing.Processor
