@@ -28,17 +28,17 @@ public class ChangeStyleImpl implements ChangeStyle {
     @Override
     public String changeStyle(int numberOfRow) {
         Scanner scanner = new Scanner(text);
-        String res = "0";
+        StringBuilder res = new StringBuilder("0");
         int i = 0;
         while (scanner.hasNextLine()) {
             if (i == numberOfRow) {
                 break;
             }
             else{
-                res = scanner.nextLine();
+                res.append(scanner.nextLine());
                 i++;
             }
         }
-        return res;
+        return res.toString();
     }
 }
