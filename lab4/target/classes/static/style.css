@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 20%;
+    border: 1px solid black;
+}
+
+header h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+main table{
+
+    margin-top: 40px;
+}
